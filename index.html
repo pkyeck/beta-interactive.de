@@ -157,7 +157,44 @@
     }
     .row .col-1 {
       width: 33.33%;
+      padding-right: 18px;
     }
+
+    @media only screen and (max-width: 440px) {
+      .footer {
+        height: 140px;
+      }
+
+      .main2 {
+        margin-bottom: 140px;
+      }
+
+      .row .col {
+        float: none;
+      }
+      .row .col-1 {
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+      .main {
+        border: 0;
+      }
+
+      .main2 {
+        padding: 20px;
+      }
+
+      .footer {
+        padding: 0 20px 10px 20px;
+      }
+
+      #logo {
+        width: 100%;
+      }      
+    }
+
   </style>
 </head>
 <body>
