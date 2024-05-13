@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/RobotoCondensed-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url(./fonts/RobotoCondensed-SemiBold.ttf) format('truetype');
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  margin-bottom: 0.8em;
+  line-height: 1.2;
+}
+
+.tags {
+  @apply flex flex-wrap max-w-full
+}
+
+.tags li {
+  @apply inline-flex bg-white/50 rounded px-2 py-1 text-xs text-dark/75 mb-2 mr-2
+}
+
+.tags.infra li {
+  @apply bg-black/15
+}
+
+.list {
+  @apply text-base mb-4;
+  list-style-position: outside;
+  list-style-type: "—";
+  padding-left: 0;
+  margin-left: 12px;
+}
+
+.list li {
+  padding-left: 12px
+}
+
+.info {
+  @apply grid grid-cols-3 gap-4 text-[13px] leading-4 mt-1 mb-4 text-dark/50
+}
