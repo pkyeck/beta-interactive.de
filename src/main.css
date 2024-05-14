@@ -31,6 +31,17 @@ p {
   @apply inline-flex bg-white/50 rounded px-2 py-1 text-xs text-dark/75 mb-2 mr-2
 }
 
+@page {
+  size: a4 portrait;
+  margin: 1.5cm 1.5cm;
+}
+
+@media print {
+  .tags li {
+    @apply bg-black/5
+  }
+}
+
 .tags.infra li {
   @apply bg-black/15
 }

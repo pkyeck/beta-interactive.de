@@ -4,17 +4,18 @@
 {{> head }}
 
 <body class="font-sans text-dark h-full">
-  <div class="relative min-h-full bg-mustard border-white xs:border-[10px]">
-    <div class="p-5 x:p-8 pb-80 x:pb-40">
+  <div class="relative min-h-full bg-mustard print:bg-white border-white xs:border-[10px] print:border-0">
+    <div class="p-5 x:p-8 pb-80 x:pb-40 print:!p-0">
       {{> header }}
 
       <div class="max-w-[700px] text-xl">
 
-        <h2 class="mt-24 mb-8 text-white font-semibold text-2xl">Work experience</h2>
+        <h2 class="mt-24 text-white font-semibold text-2xl print:text-mustard break-after-avoid-page">Work experience
+        </h2>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Prepublic</span> / freelance senior frontend developer <a
-              href="https://prepublic.de/" target="_blank" aria-label="Project website"><img
+              href="https://prepublic.de/" target="_blank" aria-label="Project website" class="print:hidden"><img
                 src="/icon-externer-link.svg" width="20" height="20" class="inline-block relative top-[-2px]"
                 alt="Prepublic website" /></a></h3>
           <div class="info">
@@ -48,10 +49,11 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Wonderz</span> / senior software architect <a
-              href="https://wonderz.eu/" target="_blank" aria-label="Project website"><img src="/icon-externer-link.svg"
-                width="20" height="20" class="inline-block relative top-[-2px]" alt="Wonderz website" /></a></h3>
+              href="https://wonderz.eu/" target="_blank" aria-label="Project website" class="print:hidden"><img
+                src="/icon-externer-link.svg" width="20" height="20" class="inline-block relative top-[-2px]"
+                alt="Wonderz website" /></a></h3>
           <div class="info">
             <div>Duration: Feb 2019 – Jan 2024</div>
             <div>Organization size: 25</div>
@@ -95,10 +97,10 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Haselmeier</span> / freelance senior software engineer <a
-              href="https://haselmeier.com/en/services/d-flex-connect/" target="_blank"
-              aria-label="Project website"><img src="/icon-externer-link.svg" width="20" height="20"
+              href="https://haselmeier.com/en/services/d-flex-connect/" target="_blank" aria-label="Project website"
+              class="print:hidden"><img src="/icon-externer-link.svg" width="20" height="20"
                 class="inline-block relative top-[-2px]" alt="Haselmeier website" /></a></h3>
           <div class="info">
             <div>Duration: Aug 2018 – Feb 2019</div>
@@ -126,11 +128,11 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">DuMont Mediengruppe</span> / freelance software architect <a
               href="https://newsinitiative.withgoogle.com/dnifund/dni-projects/righthere/" target="_blank"
-              aria-label="Project website"><img src="/icon-externer-link.svg" width="20" height="20"
-                class="inline-block relative top-[-2px]" alt="Project website" /></a>
+              aria-label="Project website" class="print:hidden"><img src="/icon-externer-link.svg" width="20"
+                height="20" class="inline-block relative top-[-2px]" alt="Project website" /></a>
           </h3>
           <div class="info">
             <div>Duration: Aug 2017 – Aug 2018</div>
@@ -143,6 +145,7 @@
             <li>integrated 3rd party image conversion service</li>
             <li>managed two developers helping me with the React frontend</li>
             <li>wrote integration tests for all API endpoints</li>
+            <li>responsible for setting up and maintaining kubernetes cluster on GCP</li>
           </ul>
           <ul class="tags">
             <li>JavaScript</li>
@@ -161,10 +164,11 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Taxfix</span> / senior software architect <a
-              href="https://taxfix.de" target="_blank" aria-label="Project website"><img src="/icon-externer-link.svg"
-                width="20" height="20" class="inline-block relative top-[-2px]" alt="Taxfix website" /></a></h3>
+              href="https://taxfix.de" target="_blank" aria-label="Project website" class="print:hidden"><img
+                src="/icon-externer-link.svg" width="20" height="20" class="inline-block relative top-[-2px]"
+                alt="Taxfix website" /></a></h3>
           <div class="info">
             <div>Duration: Sep 2016 – Jul 2017</div>
             <div>Organization size: 15</div>
@@ -175,6 +179,7 @@
             <li>built REST-API and integrated 3rd party ELSTER interface for tax submission</li>
             <li>worked with tax experts on writing module to calculate user's tax return</li>
             <li>conducted thorough testing and debugging to ensure accurate calculations</li>
+            <li>responsible for setting up and maintaining kubernetes cluster on GCP</li>
           </ul>
           <ul class="tags">
             <li>JavaScript</li>
@@ -193,9 +198,10 @@
           </ul>
         </article>
 
-        <h2 class="mb-8 text-white font-semibold text-2xl">Previous experience</h2>
+        <h2 class="mt-24 text-white font-semibold text-2xl print:text-mustard break-after-avoid-page">Previous
+          experience</h2>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Bilanztest24 </span> / senior software architect
             (Co-Founder)</h3>
           <div class="info">
@@ -227,7 +233,7 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Clapp mobile</span> / freelance senior software engineer
           </h3>
           <div class="info">
@@ -254,7 +260,7 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Dotdotdot</span> / senior frontend developer</h3>
           <div class="info">
             <div>Duration: Oct 2013 – May 2014</div>
@@ -274,7 +280,7 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">freelance work</span> / fullstack web developer</h3>
           <div class="info">
             <div>Duration: 2006 – 2013</div>
@@ -297,7 +303,7 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Berlin University of Applied Sciences</span> / assistant
             lecturer</h3>
           <div class="info">
@@ -313,7 +319,7 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Galileo Press</span> / freelance writer</h3>
           <div class="info">
             <div>Duration: Oct 2007 – Oct 2010</div>
@@ -327,7 +333,7 @@
           </ul>
         </article>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Argonauten G2</span> / Web Developer & Technical Project
             Manager</h3>
           <div class="info">
@@ -344,9 +350,9 @@
           </ul>
         </article>
 
-        <h2 class="mb-8 text-white font-semibold text-2xl">Education</h2>
+        <h2 class="mt-24 text-white font-semibold text-2xl print:text-mustard break-after-avoid-page">Education</h2>
 
-        <article class="mb-12">
+        <article class="mt-12 break-inside-avoid print:max-w-2xl">
           <h3 class="font-semibold"><span class="uppercase">Berlin University of Applied Sciences</span> / Dipl.
             Medieninformatiker (FH)</h3>
           <div class="info">
