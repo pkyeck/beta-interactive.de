@@ -12,6 +12,7 @@ export default {
       input: {
         main: resolve(__dirname, "src/index.html"),
         cv: resolve(__dirname, "src/cv.html"),
+        imprint: resolve(__dirname, "src/imprint.html"),
       },
     },
   },
